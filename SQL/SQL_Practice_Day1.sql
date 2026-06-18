@@ -1,0 +1,10 @@
+use college;
+create table student (id int primary key, name varchar(50), age int not null);
+insert into student values(1, 'Aman', 21);
+insert into student values(2, 'Atul', 21);
+insert into student values(3, 'Abhinesh', 22);
+insert into student values(4, 'Anurag', 22);
+insert into student values(5, 'Ankit', 21);
+insert into student values(6, 'Anagh', 21);
+insert into student values(7, 'Atharva', 22);
+select*from student;
